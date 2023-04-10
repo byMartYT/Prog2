@@ -90,6 +90,7 @@ public class Server {
         in = Character.toUpperCase(in);
         if (typedChars.contains(in)) {
             bw.write("Schon eingegeben!\n");
+            System.out.println("Schon eingegeben!");
         } else {
             typedChars.add(in);
             if (leftChars.contains(in)) {
@@ -104,25 +105,30 @@ public class Server {
             bw.write("Du hast gewonnen!\n");
             playing = false;
         }
-        bw.write("END\n");
     }
 
     public static void print(BufferedWriter bw) throws IOException {
         rip(false, bw);
         bw.write("Falsch: ");
+        System.out.print("Falsch: ");
         for (int i = 0; i < wrongChars.size(); i++) {
             if (i != 0) {
                 bw.write(", ");
+                System.out.print(", ");
             }
             bw.write(wrongChars.get(i));
+            System.out.print(wrongChars.get(i));
         }
         bw.write("\n");
+        System.out.println();
         for (int i = 0; i < word.length(); i++) {
             if (rightChars.contains(word.charAt(i))) {
                 bw.write(word.charAt(i));
-            } else bw.write("_");
+                System.out.print(word.charAt(i));
+            } else {bw.write("_"); System.out.print("_");}
         }
         bw.write("\n");
+        System.out.println();
     }
 
     public static void generate() {
@@ -131,6 +137,7 @@ public class Server {
         rightChars.clear();
         leftChars.clear();
         wrongChars.clear();
+
         word = words[(int) Math.round(Math.random() * (words.length - 1))].toUpperCase(Locale.GERMAN);
         System.out.println(word);
         for (char ch : word.toCharArray()) {
@@ -207,40 +214,40 @@ public class Server {
             case 6 -> {
                 bw.write("--------------\n");
                 bw.write("   _\n");
-                bw.write("  |\n   ");
-                bw.write("  |\n   ");
-                bw.write("  |\n   ");
-                bw.write("  |\n   ");
+                bw.write("  |\n");
+                bw.write("  |\n");
+                bw.write("  |\n");
+                bw.write("  |\n");
                 bw.write(" //\\\\  \n");
                 bw.write("--------------\n");
             }
             case 7 -> {
                 bw.write("--------------\n");
                 bw.write("   __\n");
-                bw.write("  |  \n ");
-                bw.write("  |  \n ");
-                bw.write("  |  \n ");
-                bw.write("  |  \n ");
+                bw.write("  |  \n");
+                bw.write("  |  \n");
+                bw.write("  |  \n");
+                bw.write("  |  \n");
                 bw.write(" //\\\\  \n");
                 bw.write("--------------\n");
             }
             case 8 -> {
                 bw.write("--------------\n");
                 bw.write("   ___\n");
-                bw.write("  |  \n ");
-                bw.write("  |  \n ");
-                bw.write("  |  \n ");
-                bw.write("  |  \n ");
+                bw.write("  |  \n");
+                bw.write("  |  \n");
+                bw.write("  |  \n");
+                bw.write("  |  \n");
                 bw.write(" //\\\\  \n");
                 bw.write("--------------\n");
             }
             case 9 -> {
                 bw.write("--------------\n");
                 bw.write("   ____\n");
-                bw.write("  |  \n ");
-                bw.write("  |  \n ");
-                bw.write("  |  \n ");
-                bw.write("  |  \n ");
+                bw.write("  |  \n");
+                bw.write("  |  \n");
+                bw.write("  |  \n");
+                bw.write("  |  \n");
                 bw.write(" //\\\\  \n");
                 bw.write("--------------\n");
             }
@@ -248,9 +255,9 @@ public class Server {
                 bw.write("--------------\n");
                 bw.write("   ____\n");
                 bw.write("  |    | \n");
-                bw.write("  |  \n ");
-                bw.write("  |  \n ");
-                bw.write("  |  \n ");
+                bw.write("  |  \n");
+                bw.write("  |  \n");
+                bw.write("  |  \n");
                 bw.write(" //\\\\  \n");
                 bw.write("--------------\n");
             }
@@ -259,8 +266,8 @@ public class Server {
                 bw.write("   ____\n");
                 bw.write("  |    | \n");
                 bw.write("  |    O \n");
-                bw.write("  |  \n ");
-                bw.write("  |  \n ");
+                bw.write("  |  \n");
+                bw.write("  |  \n");
                 bw.write(" //\\\\  \n");
                 bw.write("--------------\n");
             }
@@ -270,7 +277,7 @@ public class Server {
                 bw.write("  |    | \n");
                 bw.write("  |    O \n");
                 bw.write("  |   /|\\\n");
-                bw.write("  |  \n ");
+                bw.write("  |  \n");
                 bw.write(" //\\\\  \n");
                 bw.write("--------------\n");
             }
