@@ -11,36 +11,36 @@ public class Main implements ChangeCalculator {
 
         int[] res = new int[8];
 
-        while(cent >= 200) {
-            cent -= 200;
+        while(cent >= Coin.EURO_2.value) {
+            cent -= Coin.EURO_2.value;
             res[7]++;
         }
-        while(cent >= 100) {
-            cent -= 100;
+        while(cent >= Coin.EURO_1.value) {
+            cent -= Coin.EURO_1.value;
             res[6]++;
         }
-        while(cent >= 50) {
-            cent -= 50;
+        while(cent >= Coin.CENT_50.value) {
+            cent -= Coin.CENT_50.value;
             res[5]++;
         }
-        while(cent >= 20) {
-            cent -= 20;
+        while(cent >= Coin.CENT_20.value) {
+            cent -= Coin.CENT_20.value;
             res[4]++;
         }
-        while(cent >= 10) {
-            cent -= 10;
+        while(cent >= Coin.CENT_10.value) {
+            cent -= Coin.CENT_10.value;
             res[3]++;
         }
-        while(cent >= 5) {
-            cent -= 5;
+        while(cent >= Coin.CENT_5.value) {
+            cent -= Coin.CENT_5.value;
             res[2]++;
         }
-        while(cent >= 2) {
-            cent -= 2;
+        while(cent >= Coin.CENT_2.value) {
+            cent -= Coin.CENT_2.value;
             res[1]++;
         }
-        while(cent == 1) {
-            cent -= 1;
+        while(cent == Coin.CENT_1.value) {
+            cent -= Coin.CENT_1.value;
             res[0]++;
         }
 
