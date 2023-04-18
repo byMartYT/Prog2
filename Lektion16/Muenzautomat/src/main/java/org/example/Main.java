@@ -6,6 +6,7 @@ public class Main implements ChangeCalculator {
     public int[] getChange(int euros, int cent) {
 
         if (euros < 0 || cent < 0) throw new IllegalArgumentException("Weder Cent noch Euro darf negativ sein");
+        if(cent > 99) throw new IllegalArgumentException("Cent darf nicht höher als 99 sein");
 
         cent += euros * 100;
 
