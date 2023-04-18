@@ -5,13 +5,21 @@ public class Main implements ChangeCalculator {
     @Override
     public int[] getChange(int euros, int cent) {
 
-        if(euros < 0 || cent < 0) throw new IllegalArgumentException("Weder Cent noch Euro darf negativ sein");
+        if (euros < 0 || cent < 0) throw new IllegalArgumentException("Weder Cent noch Euro darf negativ sein");
 
         cent += euros * 100;
 
-        int[] res = new int[8];
+        int[] res = new int[Coin.values().length];
+        int i = 7;
+        while (cent > 0) {
+            while (cent >= Coin.values()[i].value) {
+                cent -= Coin.values()[i].value;
+                res[i]++;
+            }
+                i--;
+        }
 
-        while(cent >= Coin.EURO_2.value) {
+        /*while(cent >= Coin.EURO_2.value) {
             cent -= Coin.EURO_2.value;
             res[7]++;
         }
@@ -42,7 +50,7 @@ public class Main implements ChangeCalculator {
         while(cent == Coin.CENT_1.value) {
             cent -= Coin.CENT_1.value;
             res[0]++;
-        }
+        }*/
 
         return res;
     }
