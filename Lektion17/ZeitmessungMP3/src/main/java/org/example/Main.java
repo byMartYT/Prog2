@@ -14,8 +14,9 @@ public class Main {
                 copyWithFIS(input);
             }
             long endTime = System.currentTimeMillis();
-            long duration1 = (endTime - startTime) / 10;
+            double duration1 = (endTime - startTime) / 10.0;
             System.out.println("FIS + FOS: " + duration1 + "ms");
+
             startTime = System.currentTimeMillis();
             for (int i = 0; i < 10; i++) {
                 new File("copyBis.mp3").delete();
@@ -23,9 +24,10 @@ public class Main {
                 copyWithBIS(input2);
             }
             endTime = System.currentTimeMillis();
-            long duration2 = (endTime - startTime) / 10;
+            double duration2 = (endTime - startTime) / 10.0;
             System.out.println("BIS + BOS: " + duration2 + "ms");
-            System.out.println("Unterschied zu FIS: " + (double) duration2 / duration1 + "%");
+
+            System.out.println("Unterschied zu FIS: " + duration2 / duration1 + "%");
             startTime = System.currentTimeMillis();
             for (int i = 0; i < 10; i++) {
                 new File("copyBuffer.mp3").delete();
@@ -33,10 +35,10 @@ public class Main {
                 copyWithBuffer(input3);
             }
             endTime = System.currentTimeMillis();
-            long duration3 = (endTime - startTime) / 10;
+            double duration3 = (endTime - startTime) / 10.0;
             System.out.println("Buffer: " + duration3 + "ms");
-            System.out.println("Unterschied zu FIS: " + (double) duration3 / duration1 + "%");
-            System.out.println("Unterschied zu BIS: " + (double) duration3 / duration2 + "%");
+            System.out.println("Unterschied zu FIS: " + duration3 / duration1 + "%");
+            System.out.println("Unterschied zu BIS: " + duration3 / duration2 + "%");
         } catch (FileNotFoundException e) {
             System.err.println("Datei nicht gefunden!");
             main(null);

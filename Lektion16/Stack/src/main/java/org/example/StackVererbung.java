@@ -1,4 +1,4 @@
-package inheritance;
+package org.example;
 
 
 import org.example.StackInterface;
