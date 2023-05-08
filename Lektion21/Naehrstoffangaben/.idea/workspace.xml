@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2c1cae93-7891-4ff2-ab6c-3ab25760b1a4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Lektion17/Streamverdoppelung/src/main/java/martin/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion18/ToUppercaseWriter/src/main/java/DecoratorWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion18/ToUppercaseWriter/src/main/java/ToUpperCaseWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion18/ToUppercaseWriter/src/main/java/ToUpperCaseWriterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion19/Browser/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion19/Browser/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion19/Browser/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion19/Browser/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion19/Browser/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion19/Browser/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion19/Browser/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion19/Browser/src/main/java/Browser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion19/Galgenmaennchen/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion19/Galgenmaennchen/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion19/Galgenmaennchen/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion19/Galgenmaennchen/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion19/Galgenmaennchen/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion19/Galgenmaennchen/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion19/Galgenmaennchen/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion19/Galgenmaennchen/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion19/Galgenmaennchen/src/main/java/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion19/Galgenmaennchen/src/main/java/ClientGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion19/Galgenmaennchen/src/main/java/ClientGuess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion19/Galgenmaennchen/src/main/java/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion19/Galgenmaennchen/src/main/java/ServerGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion19/Galgenmaennchen/src/main/java/ServerResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion19/Galgenmaennchen/src/main/java/Tests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion19/GenericStack/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion19/GenericStack/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion19/GenericStack/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion19/GenericStack/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion19/GenericStack/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion19/GenericStack/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion19/GenericStack/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion19/GenericStack/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion19/GenericStack/src/main/java/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion19/GenericStack/src/main/java/StackInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion19/GenericStack/src/main/java/StackVererbung.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion20/Dictionary/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion20/Dictionary/src/main/java/Vokabeltrainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion20/Kartenspiel/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion20/Kartenspiel/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion20/Kartenspiel/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion20/Kartenspiel/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion20/Kartenspiel/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion20/Kartenspiel/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion20/Kartenspiel/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion20/Kartenspiel/src/main/java/Cards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion20/Kartenspiel/src/main/java/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion20/Kartenspiel/src/main/java/Karte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion20/Kartenspiel/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion20/Kartenspiel/src/main/java/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion20/SMS/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion20/SMS/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion20/SMS/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion20/SMS/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion20/SMS/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion20/SMS/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion20/SMS/Nummernkontakte.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion20/SMS/Zeichenkontakte.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion20/SMS/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion20/SMS/src/main/java/IllegalTelephoneNumberException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion20/SMS/src/main/java/SMS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion20/SMS/src/main/java/Tests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion20/Skat/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion20/Skat/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion20/Skat/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion20/Skat/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion20/Skat/src/main/java/Cards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion20/Skat/src/main/java/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion20/Skat/src/main/java/Karte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion20/Skat/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion20/Skat/src/main/java/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Naehrstoffe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lektion17/Streamverdoppelung/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lektion17/Streamverdoppelung/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lektion17/Streamverdoppelung/src/main/java/martin/OutputStreamDoubler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lektion17/Streamverdoppelung/src/main/java/martin/OutputStreamDoubler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lektion17/Streamverdoppelung/target/classes/martin/OutputStreamDoubler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lektion17/Streamverdoppelung/target/classes/martin/OutputStreamDoubler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lektion18/Galgenmaennchen/src/main/java/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lektion18/Galgenmaennchen/src/main/java/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lektion18/ToUppercaseWriter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lektion18/ToUppercaseWriter/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2PTigENzjNQqZnpgHTdrDY172Gt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/martin/Documents/Studium/Sem2/Prog2/Lektion21/Naehrstoffangaben",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c1cae93-7891-4ff2-ab6c-3ab25760b1a4" name="Changes" comment="" />
+      <created>1683487582477</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683487582477</updated>
+      <workItem from="1683487583518" duration="15000" />
+      <workItem from="1683548170281" duration="290000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
