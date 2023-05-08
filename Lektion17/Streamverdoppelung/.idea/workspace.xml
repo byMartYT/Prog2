@@ -4,11 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74ee0d63-3357-4d1d-8558-8e913c24c024" name="Changes" comment="Streamverdoppelung" />
+    <list default="true" id="74ee0d63-3357-4d1d-8558-8e913c24c024" name="Changes" comment="Streamverdoppelung">
+      <change afterPath="$PROJECT_DIR$/src/main/java/martin/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/martin/OutputStreamDoubler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/martin/OutputStreamDoubler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/martin/OutputStreamDoubler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/martin/OutputStreamDoubler.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -35,6 +47,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/martin/Documents/Studium/Sem2/Prog2/Lektion17/Streamverdoppelung",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -42,7 +55,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -55,6 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1680992069722</updated>
       <workItem from="1680992070767" duration="2717000" />
+      <workItem from="1682424585579" duration="2745000" />
     </task>
     <task id="LOCAL-00001" summary="Streamverdoppelung">
       <created>1680993843777</created>
@@ -63,7 +77,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680993843777</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Streamverdoppelung">
+      <created>1682424866238</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682424866238</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Streamverdoppelung">
+      <created>1682424876806</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682424876806</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
