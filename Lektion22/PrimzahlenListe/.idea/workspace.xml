@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7a9cfe21-8684-454e-be41-af644a20791f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Lektion21/Exam/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion21/Exam/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion21/Exam/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion21/Exam/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion21/Exam/questions.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion21/Exam/src/main/java/Exam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion21/Exam/src/main/java/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion21/Exam/src/main/java/Tests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lektion21/Exam/test.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Primzahlen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../YinYang/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../YinYang/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../YinYang/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../YinYang/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../YinYang/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../YinYang/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../YinYang/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../YinYang/src/main/java/AutoMessager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../YinYang/src/main/java/AutoMessagerInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../YinYang/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lektion21/Exam/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lektion21/Exam/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2PWBkuDqFr6HW97Rrq6rtjtnrqv" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a9cfe21-8684-454e-be41-af644a20791f" name="Changes" comment="" />
+      <created>1683563104554</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683563104554</updated>
+      <workItem from="1683563105593" duration="2959000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
