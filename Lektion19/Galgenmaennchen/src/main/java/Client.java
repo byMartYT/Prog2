@@ -22,12 +22,12 @@ public class Client {
                 bw.flush();
                 handleResponse((ServerResponse) br.readObject(), game);
                 while (game.playing) {
-                    String input = null;
+                    String input;
                     do {
                         System.out.print("Eingabe: ");
                         input = sc.nextLine();
                     } while (input == null || input.equals(""));
-                    bw.writeObject(new ClientGuess(Character.toUpperCase(input.charAt(0))));
+                    bw.writeObject(new ClientGuess(input.charAt(0)));
                     bw.flush();
                     try {
                         handleResponse((ServerResponse) br.readObject(), game);

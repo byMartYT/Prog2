@@ -1,12 +1,13 @@
 import java.util.ArrayList;
+import java.util.List;
 
 public class ServerGame {
     int fails = 0;
 
-    ArrayList<Character> typedChars = new ArrayList<>();
-    ArrayList<Character> rightChars = new ArrayList<>();
-    ArrayList<Character> wrongChars = new ArrayList<>();
-    ArrayList<Character> leftChars = new ArrayList<>();
+    List<Character> typedChars = new ArrayList<>();
+    List<Character> rightChars = new ArrayList<>();
+    List<Character> wrongChars = new ArrayList<>();
+    List<Character> leftChars = new ArrayList<>();
 
     boolean playing;
 
@@ -59,8 +60,13 @@ public class ServerGame {
             return createResponse("Falsch!", true);
         }
     }
+    private ServerResponse createResponse(String response, boolean printStats) {
+        String newWord = handleWord();
+        System.out.println(newWord);
+        return new ServerResponse(response, fails, wrongChars, rightChars, newWord, playing, printStats);
+    }
 
-    public String handleWord() {
+    private String handleWord() {
         StringBuilder response = new StringBuilder();
         for (int i = 0; i < word.length(); i++) {
             if(rightChars.contains(word.charAt(i))) {
@@ -73,10 +79,5 @@ public class ServerGame {
         return response.toString();
     }
 
-    public ServerResponse createResponse(String response, boolean printStats) {
-        String newWord = handleWord();
-        System.out.println(newWord);
-        return new ServerResponse(response, fails, wrongChars, rightChars, newWord, playing, printStats);
-    }
 
 }

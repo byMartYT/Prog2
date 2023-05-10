@@ -1,5 +1,6 @@
 import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.List;
 
 public class ServerResponse implements Serializable {
     String response;
@@ -10,7 +11,7 @@ public class ServerResponse implements Serializable {
     boolean playing;
     String word;
 
-    public ServerResponse(String response, int failCount, ArrayList<Character> wrongChars, ArrayList<Character> rightChars, String word, boolean playing, boolean printStats) {
+    public ServerResponse(String response, int failCount, List<Character> wrongChars, List<Character> rightChars, String word, boolean playing, boolean printStats) {
         this.response = response;
         this.failCount = failCount;
         StringBuilder wc = new StringBuilder();
