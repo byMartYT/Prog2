@@ -6,7 +6,7 @@ public class Main {
         yang.start();
         Thread anonym = new Thread() {
             @Override
-            public void run(){
+            public void run() {
                 while (true) {
                     System.out.println("anonym");
                     try {
@@ -44,4 +44,8 @@ public class Main {
             }
         }
     }
+
+
+
+
 }
