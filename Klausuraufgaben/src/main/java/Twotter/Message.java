@@ -1,4 +1,7 @@
-package user;
+package Twotter;
+
+import java.time.LocalDate;
+import java.util.Date;
 
 public class Message {
     private int charCounter;
@@ -7,6 +10,8 @@ public class Message {
 
     public Message(String message) {
         this.message = message;
+        this.charCounter = message.toCharArray().length;
+        this.creationDate = LocalDate.now().toString();
     }
 
     public int getCharCounter() {
@@ -31,5 +36,10 @@ public class Message {
 
     public void setCreationDate(String creationDate) {
         this.creationDate = creationDate;
+    }
+
+    @Override
+    public String toString(){
+        return message;
     }
 }
