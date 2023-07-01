@@ -1,0 +1,7 @@
+Schreiben Sie dazu eine Klasse RouletteZahlenIterator,
+welche die Zahlenfolge ohne Verwendung einer Collection erzeugt.
+Die Klasse muss dazu das generische Interface Iterator<E>implementieren,
+dessen Dokumentation Sie im Anhang finden. Die Zahlenfolge soll dann terminieren,
+wenn zum dritten Mal der Wert 0 geliefert wurde. Da die Ausführung der Methode
+remove() bei dieser Aufgabe nicht sinnvoll ist, soll die laut API‐Spezifikation
+geforderte Exception von der Methode geworfen werden.

@@ -1,0 +1,7 @@
+Kann eine der Dateien
+nicht geöffnet werden,
+so wird eine entsprechende Fehlermeldung
+ausgegeben und mit der nächsten Datei fortgefahren.
+Bitte beachten Sie im Zusammenhang mit dem Auffinden von Teilstrings
+innerhalb eines Strings auch den Anhang mit den
+Hinweisen zur Klasse String.

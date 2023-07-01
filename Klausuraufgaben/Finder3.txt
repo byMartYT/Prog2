@@ -1,0 +1,5 @@
+Zeilenumbrüche müssen
+nicht berücksichtigt werden.
+Jeder Treffer muss mit der Angabe
+der Datei und der Zeilennummer auf der
+Standardausgabe ausgegeben werden.
